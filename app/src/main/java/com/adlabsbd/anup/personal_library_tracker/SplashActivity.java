@@ -1,5 +1,6 @@
 package com.adlabsbd.anup.personal_library_tracker;
 
+
 import android.app.Activity;
 
 import android.content.Intent;
@@ -27,7 +28,7 @@ public class SplashActivity extends Activity {
                 // This method will be executed once the timer is over
                 // Start your app main activity
 
-                Intent i = new Intent(SplashActivity.this, MainActivity.class);
+                Intent i = new Intent(SplashActivity.this,MainActivity.class );
                 startActivity(i);
                 finish();
             }
