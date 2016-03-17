@@ -1,4 +1,14 @@
 <resources>
-    <string name="app_name">Personal-Library-Tracker</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Personal Library Tracker</string>
+    <string name="book_list">Book List</string>
+
+    <!-- Main Activity String-->
+
+    <string name="addBook">Add New</string>
+    <string name="bookList">Book List</string>
+    <string name="borrowBook">Borrow Book</string>
+    <string name="returnBook">Return Book</string>
+    <string name="about">About App</string>
+    <!-- -->
+
 </resources>
