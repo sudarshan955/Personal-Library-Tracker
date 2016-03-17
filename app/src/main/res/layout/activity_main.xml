@@ -8,7 +8,89 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.adlabsbd.anup.personal_library_tracker.MainActivity"
-
+    android:orientation="vertical"
     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/btn_click"
+            android:text="@string/addBook"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/btn_click"
+            android:text="@string/bookList"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/btn_click"
+            android:text="@string/borrowBook"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/btn_click"
+            android:text="@string/returnBook"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+
 
 </LinearLayout>
