@@ -15,7 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity"
+            android:icon="@mipmap/ic_launcher"
+            />
+        <activity android:name=".BookListActivity"
+            android:label="@string/book_list"
+            >
+
+
+        </activity>
     </application>
 
 </manifest>
